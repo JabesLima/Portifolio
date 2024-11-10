@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 
 export default function Tema(){
     const [ligar, setLiga] = useState(false)
-    const audio = new Audio('/light.mp3');
+    const audio = new Audio('https://jabeslima.github.io/Portifolio/light.mp3');
+
 
     function tema(){
         audio.play();
