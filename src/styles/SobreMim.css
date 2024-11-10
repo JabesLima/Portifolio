@@ -1,0 +1,28 @@
+.AboutMe {
+    margin: auto;
+    padding-top: 100px;
+    h1{
+      font-size: 28px;
+      padding-bottom: 30px;
+      text-align: center;
+    }
+    p {
+      padding-bottom: 30px;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+  }
+  
+  
+  @media (max-width: 600px){
+      .AboutMe{
+  
+          h1{
+            font-size: 5vw;
+          }
+          p{
+              font-size: 20px;
+          }
+      }
+  }

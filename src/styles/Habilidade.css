@@ -1,0 +1,100 @@
+.Habilidades{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 950px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    padding: 10px; 
+    margin-top: 50px;
+}
+.Habilidades .icones div{
+    padding: 10px;
+    margin: 20px;
+    margin-top: 18px;
+    width: 75%; 
+    background-color: rgba(54, 63, 63, 0.849);
+    color: black;
+    border-radius: 20px 20px 20px 0px;
+    h1{
+        font-size: 15px;
+    }
+}
+.Habilidades .icones div img{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+}
+.Habilidades .icones div:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.Habilidades .icones div:nth-child(1){
+    color: rgb(255, 136, 0);
+}
+.Habilidades .icones div:nth-child(2){
+    color: rgb(0, 140, 255);
+}
+.Habilidades .icones div:nth-child(3){
+    color: rgb(0, 255, 242);
+}
+
+/* .Habilidades .icones div:nth-child(4){
+    color: black;
+} */
+
+.Habilidades .icones div:nth-child(4){
+    color: rgb(0, 128, 85);
+}
+.Habilidades .icones div:nth-child(5){
+    color: yellow;
+}
+.Habilidades .icones div:nth-child(6){
+    color: rgb(0, 162, 255);
+}
+.Habilidades .icones div:nth-child(7){
+    color: white;
+}
+.Habilidades .icones div:nth-child(8){
+    color: rgb(21, 128, 0);
+}
+@media (max-width: 600px){
+    .Habilidades{
+        width: 96%;
+    }
+
+    .icones{
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Habilidades .icones div{
+        width: 70%; 
+        h1{
+            font-size: 3vw;
+        }
+    }
+
+    .Habilidades .icones div img{
+        width: 45px;
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+

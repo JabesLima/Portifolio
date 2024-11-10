@@ -1,0 +1,35 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  max-width: 1500px;
+  scrollbar-color: #034ed8 #cccccc00;
+  scrollbar-width: thin;
+}
+
+
+body {
+  background-color: black;
+}
+
+
+.container_principal{
+  color: white;
+}
+
+.cabecario{
+  color: white;
+}
+
+.rede_sociais a{
+  color: white;
+}
+
+.AboutMe{
+  color: white;
+}
+
+title{
+  color: red;
+}

@@ -1,0 +1,14 @@
+.Tema {
+    text-align: center;
+    margin-top: 30px;
+}
+.icon {
+    cursor: pointer;
+    font-size: 50px;
+}
+.ligado {
+    color: rgb(255, 136, 0);
+}
+.desligado {
+    color: white;
+}

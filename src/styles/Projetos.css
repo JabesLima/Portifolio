@@ -1,0 +1,105 @@
+.Projetos h1 {
+    text-align: center;
+}
+
+.Projetos .Projetos_D_T h1 {
+    text-align: start;
+    margin-top: 100px;
+    position: relative; 
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.Projetos .Projetos_D_T h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 30%;
+    height: 3px;
+    background: linear-gradient(to right, #a445b2, #fa4299); 
+    border-radius: 2px;
+}
+
+
+.Projetos .Projetos_D_T .destaques div,
+.Projetos .Projetos_D_T .todos div {
+    position: relative;
+    margin: 10px;
+    margin-top: 40px;
+    width: 45%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.projeto-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.projeto-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.projeto-item:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.projeto-item:hover .projeto-link {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.Projetos .Projetos_D_T .destaques,
+.Projetos .Projetos_D_T .todos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .Projetos .Projetos_D_T .destaques div,
+    .Projetos .Projetos_D_T .todos div {
+        width: 100%;
+        height: 210px;
+    }
+    
+    .Projetos .Projetos_D_T img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .Projetos .Projetos_D_T .destaques div,
+    .Projetos .Projetos_D_T .todos div {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .Projetos .Projetos_D_T img {
+        width: 100%;
+        height: 100%;
+    }
+}
